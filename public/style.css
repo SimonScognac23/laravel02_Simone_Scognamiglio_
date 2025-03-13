@@ -1,0 +1,52 @@
+/*------------------------  PAGINA DI ABOUT-US  -------------------------------------------------------------------*/
+
+
+/* Effetto hover per la card */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Immagine nella card */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+    /* Altezza dell'immagine fissa */
+}
+
+
+
+
+
+
+
+/*----------------------PAGINA WELCOME------------------------------------------------------------------------------------------------*/
+
+/* Stile personalizzato per la Hero Section */
+.hero-section {
+    background-image: url('https://ca-times.brightspotcdn.com/dims4/default/0d67908/2147483647/strip/true/crop/4506x3004+0+0/resize/1200x800!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F83%2Fe3%2Ffdb037ed4113999d68d86956cc9a%2Fet-netflix-is-a-joke-008.jpg');
+    /* Immagine di sfondo */
+    background-size: cover;
+
+    height: 100vh;
+    /* Imposta l'altezza della sezione a tutta la schermata */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Ombra per il testo per migliorare la leggibilità */
+}
+
+
+
+/*--------------------------PAGINA CONTATTI-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.hero-section2 {
+    background-image: url('https://i.ytimg.com/vi/uEcrzME8TfY/maxresdefault.jpg');
+    /* Immagine di sfondo */
+    background-size: cover;
+
+    height: 100vh;
+    /* Imposta l'altezza della sezione a tutta la schermata */
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Ombra per il testo per migliorare la leggibilità */
+}
